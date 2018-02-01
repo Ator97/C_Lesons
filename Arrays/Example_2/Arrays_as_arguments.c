@@ -4,7 +4,7 @@ Program: Arrays_as_arguments
 Info : Use arrays as arguments in a function
 License: GNU General Public License v3.0
 Date: January 30, 2018
-
+TODO: Make all dinamical
 */
 
 #include <stdio.h>

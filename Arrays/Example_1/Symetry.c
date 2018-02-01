@@ -4,6 +4,7 @@ Program: Symetry:
 Info : Determine if a integer matrix is symmetrical in relation to his main diagonal
 License: GNU General Public License v3.0
 Date: January 30, 2018
+TODO: Make dinamical matrix
 */
 
 #include <stdlib.h>

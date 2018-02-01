@@ -4,6 +4,8 @@ Program: Statistics
 Info : Determine some probabily stuff using arrays
 License: GNU General Public License v3.0
 Date: January 30; 2018
+TODO: Make all dinamical
+
 */
 
 #include <stdio.h>
