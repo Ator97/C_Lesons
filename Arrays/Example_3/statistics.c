@@ -1,6 +1,6 @@
 /*
 Author: Óscar Gutiérrez Castillo
-Program: Statistics:
+Program: Statistics
 Info : Determine some probabily stuff using arrays
 License: GNU General Public License v3.0
 Date: January 30; 2018
