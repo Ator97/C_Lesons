@@ -1,7 +1,7 @@
 /*
 Author: Óscar Gutiérrez Castillo
 Program: Symetry:
-Info : Determine if a integer matrix is symmetrical in relation to his main diagonal
+Info: Determine if a integer matrix is symmetrical in relation to his main diagonal
 License: GNU General Public License v3.0
 Date: February 1, 2018 (Last change)
 TODO: Make dinamical matrix

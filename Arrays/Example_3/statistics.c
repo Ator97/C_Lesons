@@ -1,9 +1,9 @@
 /*
 Author: Óscar Gutiérrez Castillo
 Program: Statistics
-Info : Determine some probabily stuff using arrays
+Info: Determine some probabily stuff using arrays
 License: GNU General Public License v3.0
-Date: January 30; 2018
+Date: February 1; 2018 (Last change)
 TODO: Make all dinamical
 */
 
@@ -23,7 +23,7 @@ int main(int argc, char const *argv[]) {
   }
 
   printf("\nTotal:  %d\n",integerAdd(items,10) );
-  printf("\nMaximun value is: %d\n",max(items,10) );
+  printf("\nMaximun value is: %d\n",ax(items,10) );
   return 0;
 }
 int integerAdd(const int integerArray[], int numElements){
