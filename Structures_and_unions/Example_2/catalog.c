@@ -3,7 +3,7 @@ Author: Óscar Gutiérrez Castillo
 Program: catalog:
 Info: A liitle more complex example with structures
 License: GNU General Public License v3.0
-Date: February 1, 2018 (Last change)
+Date: February 2, 2018 (Last change)
 TODO: Make dinamical matrix
 */
 
