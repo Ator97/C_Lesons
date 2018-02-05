@@ -23,7 +23,7 @@ struct journal {
 int main(){
 
   struct journal[100];
-  int tottal = 0;
+  int total = 0;
   char resp, b[21];
 
   do {
