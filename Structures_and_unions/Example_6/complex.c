@@ -3,8 +3,8 @@ Author: Óscar Gutiérrez Castillo
 Program: complex
 Info: Complex math is coming
 License: GNU General Public License v3.0
-Date: February 4, 2018 (Last change)
-TODO: Make dinamycal some structure varaiblescd
+Date: February 5, 2018 (Last change)
+TODO: All Clear
 */
 
 #include <stdio.h>
