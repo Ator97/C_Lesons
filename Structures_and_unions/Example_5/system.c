@@ -4,7 +4,7 @@ Program: system
 Info: This program generates bills and states.
 License: GNU General Public License v3.0
 Date: February 4, 2018 (Last change)
-TODO: Make dinamycal some structure varaiblescd
+TODO: Make dinamycal some structure varaibles
 */
 
 #include <stdio.h>
