@@ -16,10 +16,10 @@ struct complex {
 };
 
 struct complex create(float real, float im);
-struct complex add(struct complex complex1, struct complex complex2);
-struct complex sub(struct complex complex1, struct complex complex2);
-struct complex div(struct complex complex1, struct complex complex2);
-struct complex mul(struct complex complex1, struct complex complex2);
+struct complex add(struct complex *complex1, struct complex *complex2);
+struct complex sub(struct complex *complex1, struct complex *complex2);
+struct complex div(struct complex *complex1, struct complex *complex2);
+struct complex mul(struct complex *complex1, struct complex *complex2);
 
 int main() {
 
@@ -40,7 +40,7 @@ struct complex create(float real, float im){
 
 }
 
-struct complex add(struct complex complex1, struct complex complex2){
+struct complex add(struct complex *complex1, struct complex *complex2){
 
   struct complex complex;
   complex.real = complex1.real + complex2.real;
@@ -49,7 +49,7 @@ struct complex add(struct complex complex1, struct complex complex2){
 
 }
 
-struct complex sub(struct complex complex1, struct complex complex2){
+struct complex sub(struct complex *complex1, struct complex *complex2){
 
   struct complex complex;
   complex.real = complex1.real - complex2.real;
@@ -58,7 +58,7 @@ struct complex sub(struct complex complex1, struct complex complex2){
 
 }
 
-struct complex div(struct complex complex1, struct complex complex2){
+struct complex div(struct complex *complex1, struct complex *complex2){
 
   struct complex complex;
   complex.real = (complex1.real*complex2.real + complex1.im*complex2.im)/(pow(complex2.real,2) +pow(complex2.im,2));
@@ -67,7 +67,7 @@ struct complex div(struct complex complex1, struct complex complex2){
 
 }
 
-struct complex mul(struct complex complex1, struct complex complex2){
+struct complex mul(struct complex *complex1, struct complex *complex2){
 
   struct complex complex;
   complex.real = complex1.real * complex2.real - complex1.im * complex2.im;
