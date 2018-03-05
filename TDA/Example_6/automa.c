@@ -3,7 +3,7 @@ Author: Óscar Gutiérrez Castillo
 Programa: automata
 Info: General program for autamata string recognization
 License: GNU General Public License v3.0
-Date: modificación: 4, Marzo, 2018 (Last Change)
+Date: modificación: 2, Marzo, 2018 (Last Change)
 TODO: -
 */
 
@@ -13,7 +13,7 @@ TODO: -
 #define X 5 //number of productions
 #define Y 5 //number of nodes
 
-struct nodes{ //Stuct
+struct nodes{
     int start;
     int end;
     int forwards[X];
@@ -48,7 +48,7 @@ struct nodes*  createNodes(){
   char c;
   node = (struct nodes*)malloc((Y-1)* sizeof(struct nodes));
 
-  node[0].start = 1;        //Description of all nodes
+  node[0].start = 1;
   node[0].end = 1;
   node[0].forwards[0] = 4;
   node[0].forwards[1] = 4;
