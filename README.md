@@ -17,7 +17,6 @@ the main idea is include, one day, examples of Arrays, TDA, Data Structures and 
    7. Matrix Rotations
    8. Variance
    9. National Elections (A little more complex program)
-   10.Automata (A very basic regex identified)
    
 2. Structures_and_unions
    1. Agenda Example
