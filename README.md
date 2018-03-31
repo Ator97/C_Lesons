@@ -27,12 +27,12 @@ the main idea is include, one day, examples of Arrays, TDA, Data Structures and 
    6. A generic complex library
    7. A gneeric rational numbers library
    8. Some football ligue simulator
+   
 3. TDA
    1. Automata (A very basic regex identified)
    
 ## ToDo
 
-- [] Finish TDA examples
 - [] Add to everything dinamic stuff
 - [] Lineal Data Structures
 - [] Trees and Graphs
