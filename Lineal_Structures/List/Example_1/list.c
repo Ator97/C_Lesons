@@ -3,7 +3,7 @@ Author: Óscar Gutiérrez Castillo
 Program: List
 Info: Generic List
 License: GNU General Public License v3.0
-Date: March 30, 2018 (Last change)
+Date: June 25, 2018 (Last change)
 TODO: Put all in .h file and .c files
 */
 
