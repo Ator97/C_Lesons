@@ -31,13 +31,16 @@ void input(struct Employee *p);
 void show(struct Employee *p);
 
 int main(){
+
   struct Employee p;
 
   input(&p);
   show(&p);
 
   return 0;
+
 }
+
 
 void input(struct Employee *p){
 
@@ -55,9 +58,12 @@ void input(struct Employee *p){
   scanf("%d",&p->salary);
   printf("\nIntrouce the week work hours  ");
   scanf("%d",&p->hoursByWeek);
+
 }
 
+
 void show(struct Employee *p){
+
   printf("\nName: %s",p->person1.name );
   printf("\nAge: %d", p->person1.age);
   printf("\nheight: %d",p->person1.height );
@@ -65,6 +71,5 @@ void show(struct Employee *p){
   printf("\nBirthday: %d %d %d ",p->person1.dat.day,p->person1.dat.month,p->person1.dat.year  );
   printf("\nSalary: %d",p->salary);
   printf("\nWeek work hours: %d ",p->hoursByWeek);
-
 
 }
