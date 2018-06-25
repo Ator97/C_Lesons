@@ -27,9 +27,27 @@ the main idea is include, one day, examples of Arrays, TDA, Data Structures and 
    6. A generic complex library
    7. A gneeric rational numbers library
    8. Some football ligue simulator
-   
-3. TDA
-   1. Automata (A very basic regex identified)
+   9. Automata
+
+3. Search Algorithms
+   1. 
+   2.
+   3.
+
+4. Sort Algorithms
+   1.
+   2.
+   3.
+
+5. Algorithms in Files
+
+5. Lineal Data Structures
+   1. List
+      1. Generic List
+   2. Stacks
+   3. Queues
+
+6. Trees and Graphs
    
 ## ToDo
 

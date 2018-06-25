@@ -1,10 +1,16 @@
+/*
+Author: Óscar Gutiérrez Castillo
+Program: List
+Info: Generic List
+License: GNU General Public License v3.0
+Date: March 30, 2018 (Last change)
+TODO: Put all in .h file and .c files
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include <time.h>
 
-
-#define MX 99
 
 typedef struct Elemento
 {
@@ -16,6 +22,7 @@ void insertarFinal(Nodo **cabeza, int entrada);
 void insertarPrimero (Nodo ** cabeza, int entrada);
 void insertar(Nodo** cabeza, int dato, int entrada);
 Nodo * localizar(Nodo* cabeza, int data);
+Nodo * buscarPosicion(Nodo* cabeza, int posicion);
 Nodo* crearNodo (int x);
 
 int main(int argc, char const *argv[])
@@ -105,6 +112,19 @@ Nodo * localizar(Nodo* cabeza, int data){
 }
 
 
+Nodo * buscarPosicion(Nodo* cabeza, int posicion){
+	Nodo * indice;
+
+	if (posicion <1)
+		return -1;
+	indice = cabeza;
+	for (int i = 0; (i < posicion  && indice != NULL); i++){
+		indice = indice -> siguiente;
+	}
+	return indice;
+}
+
+
 
 Nodo* crearNodo (int x){
 	Nodo * nodo;
@@ -116,3 +136,27 @@ Nodo* crearNodo (int x){
 }
 
 
+
+
+void eliminar(Nodo **cabeza, int data){
+	Nodo * actual, * anterior;
+	int encontrado = 0;
+
+	actual = * cabeza;
+	anterior = NULL;
+	while((actual != NULL) && !encontrado){
+		encontrado = (actual-> dato == data);
+		if(!encontrado){
+			anterior = actual;
+			actual = actual->siguiente;
+		}
+	}
+	if( actual != NULL){
+		if(actual == *cabeza)
+			*cabeza = actual->siguiente;
+		else
+			anterior->siguiente=actual->siguiente;
+	}
+	free(actual);
+
+}
