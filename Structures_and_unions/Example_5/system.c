@@ -86,7 +86,7 @@ struct client* inputUsers(){
     if(i == users){
       printf("\nYou want to add more users? Y/N");
       scanf("%s",&op );
-      if (op =='Y') {
+      if (strcmp(&op,"Y") == 0 ) {
         printf("\nTell the number of extra users to add");
         scanf("%d",&j );
         users+=j;

@@ -6,7 +6,7 @@ License: GNU General Public License v3.0
 Date: February 1, 2018 (Last change)
 TODO: Make dinamical matrix
 */
-
+ 
 #include <stdio.h>
 
 struct date {
